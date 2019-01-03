@@ -1,8 +1,8 @@
-# Minimalist Personal Website
+# Marktplaats
 
 ## Introduction
 
-This personal website project – conceived with stark minimalism in mind – was built entirely with [Vue.js](https://vuejs.org). Various social media profiles as well as some secret links serve as the starting point to my presence on the Internet. The randomly placed "beach ball" (famous for its alter ego as the macOS waiting indicator) adds a playful element to the site. Try hovering over it – pretty neat, huh?
+Let's sell some stuff, shall we?
 
 ## How to get stared
 
