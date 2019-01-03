@@ -1,9 +1,9 @@
 <!-- Template -->
 <template>
   <div class="container">
-    <div class="headline"><b>Welkom op Phillipp's marktplaaats!</b></div>
+    <div class="headline"><b>Welkom op de marktplaaats!</b></div>
     <div class="subheadline">
-      Check out the lekker products that we're selling.
+      Check out the lekker products we're selling.
     </div>
     <div class="subheadline">
       Prices are negotiable. Everything is for pick-up only in Roombeek/Enschede.
@@ -252,6 +252,31 @@
         <div class="name"><b>Microwave</b></div>
         <div class="price">10 €</div>
         <div class="description"><i>700 Watts of pure convenience</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/nightstand-2.jpg" />
+        <img class="image image--first" src="./assets/images/nightstand-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Hipster nightstand</b></div>
+        <div class="price">1 €</div>
+        <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-chair-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-chair-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Boss chair</b></div>
+        <div class="price">Free</div>
+        <div class="description"><i>Got it from a Slovenian dude</i></div>
+        <div class="description"><i>(If you've made it until here, you get the chair for free)</i></div>
       </div>
     </div>
   </div>
