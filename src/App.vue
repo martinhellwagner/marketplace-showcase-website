@@ -47,7 +47,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Chair</b></div>
         <div class="price">Free</div>
-        <div class="description"><i>Free only if you take the other four</i></div>
+        <div class="description"><i>Free if you take the other four</i></div>
       </div>
     </div>
 
@@ -131,7 +131,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Shelf</b></div>
         <div class="price">10 €</div>
-        <div class="description"><i>Can be hidden in the forest (Ukulele not included)</i></div>
+        <div class="description"><i>So wodden, it can be hidden in the forest (Ukulele not included)</i></div>
       </div>
     </div>
 
@@ -216,6 +216,18 @@
         <div class="name"><b>Towel hanger</b></div>
         <div class="price">5 €</div>
         <div class="description"><i>Fits 1 up to 20 towels</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/toaster-2.jpg" />
+        <img class="image image--first" src="./assets/images/toaster-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Toaster</b></div>
+        <div class="price">10 €</div>
+        <div class="description"><i>Be happy, eat toast</i></div>
       </div>
     </div>
   </div>
