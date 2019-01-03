@@ -161,6 +161,18 @@
 
     <div class="product">
       <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/couch-table-2.jpg" />
+        <img class="image image--first" src="./assets/images/couch-table-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Couch table</b></div>
+        <div class="price">5 €</div>
+        <div class="description"><i>If it's gone, it's gone (Ukulele not included)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/coat-hanger-2.jpg" />
         <img class="image image--first" src="./assets/images/coat-hanger-1.jpg" />
       </div>
@@ -180,6 +192,30 @@
         <div class="name"><b>Laundry rack</b></div>
         <div class="price">5 €</div>
         <div class="description"><i>Foldable, like your laundry</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/monitor-2.jpg" />
+        <img class="image image--first" src="./assets/images/monitor-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Computer monitor</b></div>
+        <div class="price">15 €</div>
+        <div class="description"><i>Low latency, ancient aspect ratio, VGA and DVI connectors</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/towel-hanger-2.jpg" />
+        <img class="image image--first" src="./assets/images/towel-hanger-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Towel hanger</b></div>
+        <div class="price">5 €</div>
+        <div class="description"><i>Fits 1 up to 20 towels</i></div>
       </div>
     </div>
   </div>
