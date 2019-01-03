@@ -57,7 +57,7 @@
         <img class="image image--first" src="./assets/images/bed-1.jpg" />
       </div>
       <div class="text-wrapper">
-        <div class="name"><b>Bed and mistress</b></div>
+        <div class="name"><b>Bed and mattress</b></div>
         <div class="price">30 €</div>
         <div class="description"><i>Much to dream you still have</i></div>
       </div>
@@ -72,6 +72,30 @@
         <div class="name"><b>Washing machine</b></div>
         <div class="price">50 €</div>
         <div class="description"><i>Makes dirty stuff great again</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/book-shelf-2.jpg" />
+        <img class="image image--first" src="./assets/images/book-shelf-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Book shelf</b></div>
+        <div class="price">20 €</div>
+        <div class="description"><i>Painted white</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-table-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-table-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Table</b></div>
+        <div class="price">20 €</div>
+        <div class="description"><i>With beautiful details</i></div>
       </div>
     </div>
   </div>
