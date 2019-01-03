@@ -1,7 +1,7 @@
 <!-- Template -->
 <template>
   <div class="container">
-    <div class="headline"><b>Welkom!</b></div>
+    <div class="headline"><b>Welkom op Phillipp's marktplaaats!</b></div>
     <div class="subheadline">
       Check out the lekker products that we're selling.
     </div>
@@ -48,6 +48,18 @@
         <div class="name"><b>Green couch</b></div>
         <div class="price">50 €</div>
         <div class="description"><i>Could be your grandma's</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/bed-2.jpg" />
+        <img class="image image--first" src="./assets/images/bed-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Bed and mistress</b></div>
+        <div class="price">30 €</div>
+        <div class="description"><i>Much to dream you still have</i></div>
       </div>
     </div>
 

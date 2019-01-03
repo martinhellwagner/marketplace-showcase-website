@@ -54,19 +54,16 @@ body {
     width: 80vw;
     max-width: 600px;
     line-height: 1.5;
+    text-align: justify;
   }
 
-  .headline {
-    text-align: center;
-    
+  .headline {    
     @include fluidSizes(font-size, 25, 30);
     @include fluidSizes(margin-top, 40, 50);
     @include fluidSizes(margin-bottom, 20, 25);
   }
 
   .subheadline {
-    text-align: justify;
-
     @include fluidSizes(font-size, 20, 25);
     @include fluidSizes(margin-top, 20, 25);
 
