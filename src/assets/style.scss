@@ -51,16 +51,16 @@ body {
     max-width: 500px;
     text-align: left;
     line-height: 1.5;
-
-    @include fluidSizes(margin-top, 20, 25);
   }
 
   .headline {
     @include fluidSizes(font-size, 25, 30);
+    @include fluidSizes(margin-top, 40, 50);
   }
 
   .subheadline {
     @include fluidSizes(font-size, 20, 25);
+    @include fluidSizes(margin-top, 20, 25);
     @include fluidSizes(margin-bottom, 40, 50);
   }
 
