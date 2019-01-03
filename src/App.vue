@@ -2,7 +2,11 @@
 <template>
   <div class="container">
     <div class="headline"><b>Welkom!</b></div>
-    <div class="subheadline">Check out het lekka products that we're selling:</div>
+    <div class="subheadline">
+      Check out de lekka products that we're selling.
+      Everything needs to be picked up in Enschede.
+      Contact Phillipp at <u>+31 6 24730523</u> for more juicy details.
+    </div>
 
     <div class="product">
       <div class="image-wrapper">
