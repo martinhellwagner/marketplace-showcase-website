@@ -221,13 +221,37 @@
 
     <div class="product">
       <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/kitchen-shelf-2.jpg" />
+        <img class="image image--first" src="./assets/images/kitchen-shelf-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Kitchen shelf</b></div>
+        <div class="price">20 €</div>
+        <div class="description"><i>Wooden skateboard with storage capacity</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/toaster-2.jpg" />
         <img class="image image--first" src="./assets/images/toaster-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Toaster</b></div>
+        <div class="price">5 €</div>
+        <div class="description"><i>Makes bread warm (efficiently)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/microwave-2.jpg" />
+        <img class="image image--first" src="./assets/images/microwave-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Microwave</b></div>
         <div class="price">10 €</div>
-        <div class="description"><i>Be happy, eat toast</i></div>
+        <div class="description"><i>700 Watts of pure convenience</i></div>
       </div>
     </div>
   </div>
