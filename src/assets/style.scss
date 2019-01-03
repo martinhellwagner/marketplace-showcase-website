@@ -45,28 +45,39 @@ body {
     opacity: 1;
   }
 
+  a {
+    color: black;
+  }
+
   .headline,
   .subheadline {
     width: 80vw;
-    max-width: 550px;
-    text-align: justify;
+    max-width: 600px;
     line-height: 1.5;
   }
 
   .headline {
+    text-align: center;
+    
     @include fluidSizes(font-size, 25, 30);
     @include fluidSizes(margin-top, 40, 50);
+    @include fluidSizes(margin-bottom, 20, 25);
   }
 
   .subheadline {
+    text-align: justify;
+
     @include fluidSizes(font-size, 20, 25);
     @include fluidSizes(margin-top, 20, 25);
-    @include fluidSizes(margin-bottom, 40, 50);
+
+    &--last {
+      @include fluidSizes(margin-bottom, 40, 50);
+    }
   }
 
   .product {
     width: 80vw;
-    max-width: 550px;
+    max-width: 600px;
 
     @include fluidSizes(margin-top, 40, 50);
     @include fluidSizes(margin-bottom, 40, 50);
@@ -74,7 +85,7 @@ body {
     .image-wrapper {
       width: 100%;
       height: 80vw;
-      max-height: 550px;
+      max-height: 600px;
       position: relative;
 
       .image {
