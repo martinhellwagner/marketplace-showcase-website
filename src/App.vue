@@ -11,7 +11,7 @@
     <div class="subheadline subheadline--last">
       Contact Phillipp at
       <a href="mailto:phillippjende@gmail.com">phillippjende@gmail.com</a> or
-      <a href="tel:+31624730523">+31 6 24730523</a>
+      <a href="tel:+31624730523">+31 6 24730523</a> (please WhatsApp)
       for more details.
     </div>
 
@@ -155,7 +155,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Rolling office organiser</b></div>
         <div class="price">20 €</div>
-        <div class="description"><i>Improves your organisation (and you)</i></div>
+        <div class="description"><i>Improves your organisation while rockin' and rollin'</i></div>
       </div>
     </div>
 
