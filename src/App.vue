@@ -29,6 +29,30 @@
 
     <div class="product">
       <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/kitchen-chairs-2.jpg" />
+        <img class="image image--first" src="./assets/images/kitchen-chairs-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Chairs</b></div>
+        <div class="price">30 €</div>
+        <div class="description"><i>Chair up your life ... four times</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/kitchen-chair-2.jpg" />
+        <img class="image image--first" src="./assets/images/kitchen-chair-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Chair</b></div>
+        <div class="price">Free</div>
+        <div class="description"><i>Free only if you take the other four</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/big-couch-2.jpg" />
         <img class="image image--first" src="./assets/images/big-couch-1.jpg" />
       </div>
@@ -132,6 +156,30 @@
         <div class="name"><b>Rolling office organiser</b></div>
         <div class="price">20 €</div>
         <div class="description"><i>Improves your organisation (and you)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/coat-hanger-2.jpg" />
+        <img class="image image--first" src="./assets/images/coat-hanger-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Coat hanger</b></div>
+        <div class="price">Free</div>
+        <div class="description"><i>Moderate condition</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/laundry-rack-2.jpg" />
+        <img class="image image--first" src="./assets/images/laundry-rack-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Laundry rack</b></div>
+        <div class="price">5 €</div>
+        <div class="description"><i>Foldable, like your laundry</i></div>
       </div>
     </div>
   </div>
