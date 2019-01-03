@@ -94,8 +94,44 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Table</b></div>
-        <div class="price">20 €</div>
+        <div class="price">25 €</div>
         <div class="description"><i>With beautiful details</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/shelf-2.jpg" />
+        <img class="image image--first" src="./assets/images/shelf-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Shelf</b></div>
+        <div class="price">10 €</div>
+        <div class="description"><i>Can be hidden in the forest (Ukulele not included)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/dresser-2.jpg" />
+        <img class="image image--first" src="./assets/images/dresser-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Dresser</b></div>
+        <div class="price">20 €</div>
+        <div class="description"><i>Fits oddly well to the shelf</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-box-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-box-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Rolling office organiser</b></div>
+        <div class="price">20 €</div>
+        <div class="description"><i>Improves your organisation (and you)</i></div>
       </div>
     </div>
   </div>
