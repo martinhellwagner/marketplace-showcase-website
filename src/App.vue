@@ -29,6 +29,30 @@
 
     <div class="product">
       <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/big-couch-2.jpg" />
+        <img class="image image--first" src="./assets/images/big-couch-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Pull-out sofa</b></div>
+        <div class="price">120 €</div>
+        <div class="description"><i>Comfy, very good condition</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/small-couch-2.jpg" />
+        <img class="image image--first" src="./assets/images/small-couch-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Green couch</b></div>
+        <div class="price">50 €</div>
+        <div class="description"><i>Could be your grandma's</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/washing-machine-2.jpg" />
         <img class="image image--first" src="./assets/images/washing-machine-1.jpg" />
       </div>
