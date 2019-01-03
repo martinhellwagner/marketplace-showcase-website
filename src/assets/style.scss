@@ -1,0 +1,56 @@
+// Variables
+$breakpoint-min: 320;
+$breakpoint-small: 568;
+$breakpoint-medium: 768; 
+$breakpoint-large: 992;
+$breakpoint-max: 1200;
+
+// Mixins
+@mixin fluidSizes($property, $min, $max) {
+  #{$property}: #{$min + "px"};
+
+  @media screen and (min-width: #{$breakpoint-min + "px"}) {
+    #{$property}: calc(#{$min + "px"} + (#{$max} - #{$min}) * (100vw - #{$breakpoint-min + "px"}) / (#{$breakpoint-max} - #{$breakpoint-min}));
+  }
+
+  @media screen and (min-width: #{$breakpoint-max + "px"}) {
+    #{$property}: #{$max + "px"};
+  }
+}
+
+// Stylings
+body {
+  width: 100vw;
+  height: calc(var(--windowHeight, 1vh) * 100);
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (min-width: #{$breakpoint-medium + "px"}) {
+    height: 100vh;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+
+  .description {
+    width: 80vw;
+    max-width: 630px;
+    text-align: center;
+    line-height: 1.5;
+
+    // Fixes for landscape mode
+    @include fluidSizes(font-size, 20, 30);
+  }
+}
