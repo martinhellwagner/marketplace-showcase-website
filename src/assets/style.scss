@@ -83,8 +83,8 @@ body {
     @include fluidSizes(margin-top, 40, 50);
     @include fluidSizes(margin-bottom, 40, 50);
 
-    &--sold {
-      opacity: 0.3;
+    &--reserved-sold {
+      opacity: 0.5;
     }
 
     .image-wrapper {
