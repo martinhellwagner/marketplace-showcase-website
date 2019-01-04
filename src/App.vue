@@ -11,7 +11,7 @@
     <div class="subheadline subheadline--last">
       Contact Phillipp via
       <a href="mailto:phillippjende@gmail.com">e-mail</a> or at
-      <a href="tel:+31624730523">+31 6 24730523</a> (please WhatsApp)
+      <a href="tel:+31624720523">+31 6 24720523</a> (please WhatsApp)
       for more details.
     </div>
 
