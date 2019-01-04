@@ -9,8 +9,8 @@
       Prices are negotiable. Everything is for pick-up only in Roombeek/Enschede.
     </div>
     <div class="subheadline subheadline--last">
-      Contact Phillipp at
-      <a href="mailto:phillippjende@gmail.com">phillippjende@gmail.com</a> or
+      Contact Phillipp via
+      <a href="mailto:phillippjende@gmail.com">e-mail</a> or at
       <a href="tel:+31624730523">+31 6 24730523</a> (please WhatsApp)
       for more details.
     </div>
@@ -51,13 +51,25 @@
       </div>
     </div>
 
+    <div class="product product--sold">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/yacht-2.jpg" />
+        <img class="image image--first" src="./assets/images/yacht-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><s><b>Yacht</b></s></div>
+        <div class="price">Sold</div>
+        <div class="description"><i>Dream boat</i></div>
+      </div>
+    </div>
+
     <div class="product">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/big-couch-2.jpg" />
         <img class="image image--first" src="./assets/images/big-couch-1.jpg" />
       </div>
       <div class="text-wrapper">
-        <div class="name"><b>Pull-out sofa</b></div>
+        <div class="name"><b>Pullout sofa</b></div>
         <div class="price">120 €</div>
         <div class="description"><i>Comfy, very good condition</i></div>
       </div>
@@ -84,6 +96,18 @@
         <div class="name"><b>Bed and mattress</b></div>
         <div class="price">30 €</div>
         <div class="description"><i>Much to dream you still have</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/oven-2.jpg" />
+        <img class="image image--first" src="./assets/images/oven-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Oven</b></div>
+        <div class="price">100 €</div>
+        <div class="description"><i>Up to 250° C, proper oven (not a toy)</i></div>
       </div>
     </div>
 
@@ -261,7 +285,7 @@
         <img class="image image--first" src="./assets/images/nightstand-1.jpg" />
       </div>
       <div class="text-wrapper">
-        <div class="name"><b>Hipster nightstand</b></div>
+        <div class="name"><b>Nightstand / stool</b></div>
         <div class="price">1 €</div>
         <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
       </div>
