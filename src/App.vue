@@ -69,7 +69,7 @@
         <img class="image image--first" src="./assets/images/big-couch-1.jpg" />
       </div>
       <div class="text-wrapper">
-        <div class="name"><b>Pullout sofa</b></div>
+        <div class="name"><b>Pull out sofa</b></div>
         <div class="price">120 €</div>
         <div class="description"><i>Comfy, very good condition</i></div>
       </div>
