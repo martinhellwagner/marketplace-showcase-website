@@ -123,14 +123,14 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/book-shelf-2.jpg" />
         <img class="image image--first" src="./assets/images/book-shelf-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Book shelf</b></div>
-        <div class="price">20 €</div>
+        <div class="price">20 € (reserved)</div>
         <div class="description"><i>Painted white</i></div>
       </div>
     </div>
@@ -231,26 +231,26 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/towel-hanger-2.jpg" />
         <img class="image image--first" src="./assets/images/towel-hanger-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Towel hanger</b></div>
-        <div class="price">5 €</div>
+        <div class="price">5 € (reserved)</div>
         <div class="description"><i>Fits 1 up to 20 towels</i></div>
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-shelf-2.jpg" />
         <img class="image image--first" src="./assets/images/kitchen-shelf-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Kitchen shelf</b></div>
-        <div class="price">20 €</div>
+        <div class="price">20 € (reserved)</div>
         <div class="description"><i>Wooden skateboard with storage capacity</i></div>
       </div>
     </div>
