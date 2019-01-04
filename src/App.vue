@@ -167,7 +167,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Dresser</b></div>
         <div class="price">20 €</div>
-        <div class="description"><i>Fits oddly well to the shelf</i></div>
+        <div class="description"><i>Goes oddly well with the shelf</i></div>
       </div>
     </div>
 
