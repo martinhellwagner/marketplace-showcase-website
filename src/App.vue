@@ -111,14 +111,14 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/washing-machine-2.jpg" />
         <img class="image image--first" src="./assets/images/washing-machine-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Washing machine</b></div>
-        <div class="price">50 €</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Makes dirty stuff great again</i></div>
       </div>
     </div>
@@ -147,14 +147,14 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/shelf-2.jpg" />
         <img class="image image--first" src="./assets/images/shelf-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Shelf</b></div>
-        <div class="price">10 €</div>
+        <div class="price">Sold</div>
         <div class="description"><i>So wodden, it can be hidden in the forest (Ukulele not included)</i></div>
       </div>
     </div>
@@ -183,14 +183,14 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/couch-table-2.jpg" />
         <img class="image image--first" src="./assets/images/couch-table-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Couch table</b></div>
-        <div class="price">5 €</div>
+        <div class="price">Sold</div>
         <div class="description"><i>If it's gone, it's gone (Ukulele not included)</i></div>
       </div>
     </div>
@@ -257,12 +257,26 @@
 
     <div class="product">
       <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/garden-2.jpg" />
+        <img class="image image--first" src="./assets/images/garden-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Garden table and chairs</b></div>
+        <div class="price">15 €</div>
+        <div class="description"><i>A little paint and it will be as good as new</i></div>
+        <div class="description"><i>(Garden bank already reserved – only table and chairs available)</i></div>
+      </div>
+    </div>
+
+
+    <div class="product product--reserved-sold">
+      <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/toaster-2.jpg" />
         <img class="image image--first" src="./assets/images/toaster-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Toaster</b></div>
-        <div class="price">5 €</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Makes bread warm (efficiently)</i></div>
       </div>
     </div>
