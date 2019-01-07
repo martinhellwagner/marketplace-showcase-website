@@ -202,7 +202,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Coat hanger</b></div>
-        <div class="price">Free (reserved)</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Moderate condition</i></div>
       </div>
     </div>
@@ -214,7 +214,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Laundry rack</b></div>
-        <div class="price">5 € (reserved)</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Foldable, like your laundry</i></div>
       </div>
     </div>
@@ -288,7 +288,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Microwave</b></div>
-        <div class="price">10 € (reserved)</div>
+        <div class="price">Sold</div>
         <div class="description"><i>700 Watts of pure convenience</i></div>
       </div>
     </div>
