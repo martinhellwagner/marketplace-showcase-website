@@ -155,6 +155,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Shelf</b></div>
         <div class="price">Sold</div>
+        <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>So wodden, it can be hidden in the forest (Ukulele not included)</i></div>
       </div>
     </div>
@@ -227,6 +228,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Computer monitor</b></div>
         <div class="price">15 €</div>
+        <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>Low latency, ancient aspect ratio, VGA and DVI connectors</i></div>
       </div>
     </div>
@@ -300,6 +302,7 @@
       <div class="text-wrapper">
         <div class="name"><b>Nightstand / stool</b></div>
         <div class="price">1 €</div>
+        <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
       </div>
     </div>
@@ -313,6 +316,7 @@
         <div class="name"><b>Boss chair</b></div>
         <div class="price">Free</div>
         <div class="description"><i>Got it from a Slovenian dude</i></div>
+        <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>(If you've made it until here, you get the chair for free)</i></div>
       </div>
     </div>
