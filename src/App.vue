@@ -261,10 +261,9 @@
         <img class="image image--first" src="./assets/images/garden-1.jpg" />
       </div>
       <div class="text-wrapper">
-        <div class="name"><b>Garden table and chairs</b></div>
+        <div class="name"><b>Garden table, chairs and bench</b></div>
         <div class="price">30 €</div>
-        <div class="description"><i>A little paint and it will be as good as new</i></div>
-        <div class="description"><i>(Garden bank already reserved – only table and chairs available)</i></div>
+        <div class="description"><i>A little paint and they will be as good as new</i></div>
       </div>
     </div>
 
