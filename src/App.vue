@@ -123,14 +123,14 @@
       </div>
     </div>
 
-    <div class="product product--reserved-sold">
+    <div class="product">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/book-shelf-2.jpg" />
         <img class="image image--first" src="./assets/images/book-shelf-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Book shelf</b></div>
-        <div class="price">20 € (reserved)</div>
+        <div class="price">20 €</div>
         <div class="description"><i>Painted white</i></div>
       </div>
     </div>
@@ -262,7 +262,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Garden table and chairs</b></div>
-        <div class="price">15 €</div>
+        <div class="price">30 €</div>
         <div class="description"><i>A little paint and it will be as good as new</i></div>
         <div class="description"><i>(Garden bank already reserved – only table and chairs available)</i></div>
       </div>
