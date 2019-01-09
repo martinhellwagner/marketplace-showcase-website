@@ -21,15 +21,10 @@ $breakpoint-max: 1200;
 // Stylings
 body {
   width: 100vw;
-  height: calc(var(--windowHeight, 1vh) * 100);
   margin: 0;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media screen and (min-width: #{$breakpoint-medium + "px"}) {
-    height: 100vh;
-  }
 }
 
 .container {
@@ -40,6 +35,8 @@ body {
   width: 100%;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
+
+  @include fluidSizes(margin-bottom, 40, 50);
 
   &--ready {
     opacity: 1;
