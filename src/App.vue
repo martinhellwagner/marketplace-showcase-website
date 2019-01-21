@@ -15,6 +15,8 @@
       for more details.
     </div>
 
+    <img class="banner" src="./assets/images/sale.jpg" />
+
     <div class="product">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-table-2.jpg" />
@@ -22,7 +24,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Kitchen table</b></div>
-        <div class="price">50 €</div>
+        <div class="price">25 € &nbsp;<s>50 €</s></div>
         <div class="description"><i>Beautiful rosewood, convertible</i></div>
       </div>
     </div>
@@ -34,7 +36,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Chairs</b></div>
-        <div class="price">30 €</div>
+        <div class="price">15 € &nbsp;<s>30 €</s></div>
         <div class="description"><i>Chair up your life ... four times</i></div>
       </div>
     </div>
@@ -70,7 +72,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Pull out sofa</b></div>
-        <div class="price">120 €</div>
+        <div class="price">60 € &nbsp;<s>120 €</s></div>
         <div class="description"><i>Comfy, very good condition</i></div>
       </div>
     </div>
@@ -82,7 +84,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Green couch</b></div>
-        <div class="price">50 €</div>
+        <div class="price">25 € &nbsp;<s>50 €</s></div>
         <div class="description"><i>Could be your grandma's</i></div>
       </div>
     </div>
@@ -94,7 +96,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Bed and mattress</b></div>
-        <div class="price">30 €</div>
+        <div class="price">15 € &nbsp;<s>30 €</s></div>
         <div class="description"><i>Much to dream you still have</i></div>
       </div>
     </div>
@@ -106,7 +108,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Oven</b></div>
-        <div class="price">100 €</div>
+        <div class="price">25 € &nbsp;<s>50 €</s></div>
         <div class="description"><i>Up to 250° C, proper oven (not a toy)</i></div>
       </div>
     </div>
@@ -130,7 +132,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Book shelf</b></div>
-        <div class="price">20 €</div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
         <div class="description"><i>Painted white</i></div>
       </div>
     </div>
@@ -142,7 +144,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Table</b></div>
-        <div class="price">25 €</div>
+        <div class="price">12.50 € &nbsp;<s>25 €</s></div>
         <div class="description"><i>With beautiful details</i></div>
       </div>
     </div>
@@ -167,7 +169,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Dresser</b></div>
-        <div class="price">20 €</div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
         <div class="description"><i>Goes oddly well with the shelf</i></div>
       </div>
     </div>
@@ -179,7 +181,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Rolling office organiser</b></div>
-        <div class="price">20 €</div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
         <div class="description"><i>Improves your organisation while rockin' and rollin'</i></div>
       </div>
     </div>
@@ -227,7 +229,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Computer monitor</b></div>
-        <div class="price">15 €</div>
+        <div class="price">7.50 € &nbsp;<s>15 €</s></div>
         <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>Low latency, ancient aspect ratio, VGA and DVI connectors</i></div>
       </div>
@@ -240,7 +242,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Towel hanger</b></div>
-        <div class="price">5 € (reserved)</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Fits 1 up to 20 towels</i></div>
       </div>
     </div>
@@ -252,7 +254,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Kitchen shelf</b></div>
-        <div class="price">20 € (reserved)</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Wooden skateboard with storage capacity</i></div>
       </div>
     </div>
@@ -264,7 +266,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Garden table, chairs and bench</b></div>
-        <div class="price">30 €</div>
+        <div class="price">15 € &nbsp;<s>30 €</s></div>
         <div class="description"><i>A little paint and they will be as good as new</i></div>
       </div>
     </div>
@@ -301,7 +303,7 @@
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Nightstand / stool</b></div>
-        <div class="price">1 €</div>
+        <div class="price">0.50 € &nbsp;<s>1 €</s></div>
         <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
       </div>
