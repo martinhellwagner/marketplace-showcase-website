@@ -1,11 +1,11 @@
-// Variables
+// VARIABLES
 $breakpoint-min: 320;
 $breakpoint-small: 568;
-$breakpoint-medium: 768; 
+$breakpoint-medium: 768;
 $breakpoint-large: 992;
 $breakpoint-max: 1200;
 
-// Mixins
+// MIXINS
 @mixin fluidSizes($property, $min, $max) {
   #{$property}: #{$min + "px"};
 
@@ -18,7 +18,7 @@ $breakpoint-max: 1200;
   }
 }
 
-// Stylings
+// STYLES
 body {
   width: 100vw;
   margin: 0;
@@ -60,8 +60,12 @@ body {
 
   .headline {    
     @include fluidSizes(font-size, 25, 30);
-    @include fluidSizes(margin-top, 40, 50);
+    @include fluidSizes(margin-top, 150, 280);
     @include fluidSizes(margin-bottom, 20, 25);
+
+    @media screen and (min-width: #{$breakpoint-medium + "px"}) {
+      @include fluidSizes(margin-top, 40, 50);
+    }
   }
 
   .subheadline {
@@ -70,6 +74,24 @@ body {
 
     &--last {
       @include fluidSizes(margin-bottom, 40, 50);
+    }
+  }
+
+  .banner {
+    position: absolute;
+    @include fluidSizes(height, 100, 200);
+    @include fluidSizes(top, 30, 40);
+    right: 50%;
+    transform: translateX(50%);
+
+    @media screen and (min-width: #{$breakpoint-medium + "px"}) {
+      top: 25px;
+      right: 0;
+      transform: rotate(15deg);
+    }
+
+    @media screen and (min-width: 1100px) {
+      position: fixed;
     }
   }
 
@@ -97,11 +119,10 @@ body {
         width: 100%;
         height: auto;
         transition: opacity 0.3s ease-in-out;
-      }
-  
-      // Change picture on hover
-      .image--first:hover {
-        opacity: 0;
+
+        &--hidden {
+          opacity: 0;
+        }
       }
     }
 
