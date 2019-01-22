@@ -1,4 +1,4 @@
-<!-- Template -->
+<!-- TEMPLATE -->
 <template>
   <div class="container">
     <div class="headline"><b>Welkom op de marktplaaats!</b></div>
@@ -325,10 +325,10 @@
   </div>
 </template>
 
-<!-- Script -->
+<!-- SCRIPT -->
 <script src="./assets/script.js" />
 
-<!-- Style -->
+<!-- STYLE-->
 <style lang="scss">
   @import "./assets/style.scss";
 </style>

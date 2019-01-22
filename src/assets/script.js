@@ -28,6 +28,7 @@ export default {
   },
 
   methods: {
+    // Alternate between the two images for each product
     toggleImages(image) {
       if (image.classList.contains('image--hidden')) {
         image.classList.remove('image--hidden');

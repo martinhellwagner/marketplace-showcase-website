@@ -45,111 +45,111 @@ body {
   a {
     color: black;
   }
+}
 
-  .headline,
-  .subheadline {
-    width: 80vw;
-    max-width: 600px;
-    line-height: 1.5;
-    text-align: left;
+.headline,
+.subheadline {
+  width: 80vw;
+  max-width: 600px;
+  line-height: 1.5;
+  text-align: left;
 
-    @media screen and (min-width: #{$breakpoint-small + "px"}) {
-      text-align: justify;
+  @media screen and (min-width: #{$breakpoint-small + "px"}) {
+    text-align: justify;
+  }
+}
+
+.headline {    
+  @include fluidSizes(font-size, 25, 30);
+  @include fluidSizes(margin-top, 150, 280);
+  @include fluidSizes(margin-bottom, 20, 25);
+
+  @media screen and (min-width: #{$breakpoint-medium + "px"}) {
+    @include fluidSizes(margin-top, 40, 50);
+  }
+}
+
+.subheadline {
+  @include fluidSizes(font-size, 20, 25);
+  @include fluidSizes(margin-top, 20, 25);
+
+  &--last {
+    @include fluidSizes(margin-bottom, 40, 50);
+  }
+}
+
+.banner {
+  position: absolute;
+  @include fluidSizes(height, 100, 200);
+  @include fluidSizes(top, 30, 40);
+  right: 50%;
+  transform: translateX(50%);
+
+  @media screen and (min-width: #{$breakpoint-medium + "px"}) {
+    top: 25px;
+    right: 0;
+    transform: rotate(15deg);
+  }
+
+  @media screen and (min-width: 1100px) {
+    position: fixed;
+  }
+}
+
+.product {
+  width: 80vw;
+  max-width: 600px;
+
+  @include fluidSizes(margin-top, 40, 50);
+  @include fluidSizes(margin-bottom, 40, 50);
+
+  &--reserved-sold {
+    opacity: 0.5;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    height: 80vw;
+    max-height: 600px;
+    position: relative;
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      transition: opacity 0.3s ease-in-out;
+
+      &--hidden {
+        opacity: 0;
+      }
     }
   }
 
-  .headline {    
-    @include fluidSizes(font-size, 25, 30);
-    @include fluidSizes(margin-top, 150, 280);
-    @include fluidSizes(margin-bottom, 20, 25);
-
-    @media screen and (min-width: #{$breakpoint-medium + "px"}) {
-      @include fluidSizes(margin-top, 40, 50);
-    }
-  }
-
-  .subheadline {
-    @include fluidSizes(font-size, 20, 25);
+  .text-wrapper {
     @include fluidSizes(margin-top, 20, 25);
 
-    &--last {
-      @include fluidSizes(margin-bottom, 40, 50);
-    }
-  }
-
-  .banner {
-    position: absolute;
-    @include fluidSizes(height, 100, 200);
-    @include fluidSizes(top, 30, 40);
-    right: 50%;
-    transform: translateX(50%);
-
-    @media screen and (min-width: #{$breakpoint-medium + "px"}) {
-      top: 25px;
-      right: 0;
-      transform: rotate(15deg);
+    .name,
+    .price,
+    .description {
+      line-height: 1.5;
     }
 
-    @media screen and (min-width: 1100px) {
-      position: fixed;
-    }
-  }
-
-  .product {
-    width: 80vw;
-    max-width: 600px;
-
-    @include fluidSizes(margin-top, 40, 50);
-    @include fluidSizes(margin-bottom, 40, 50);
-
-    &--reserved-sold {
-      opacity: 0.5;
+    .name {
+      float: left;
+      @include fluidSizes(font-size, 20, 25);
     }
 
-    .image-wrapper {
-      width: 100%;
-      height: 80vw;
-      max-height: 600px;
-      position: relative;
-
-      .image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        transition: opacity 0.3s ease-in-out;
-
-        &--hidden {
-          opacity: 0;
-        }
-      }
+    .price {
+      float: right;
+      @include fluidSizes(font-size, 20, 25);
     }
 
-    .text-wrapper {
-      @include fluidSizes(margin-top, 20, 25);
-
-      .name,
-      .price,
-      .description {
-        line-height: 1.5;
-      }
-
-      .name {
-        float: left;
-        @include fluidSizes(font-size, 20, 25);
-      }
-
-      .price {
-        float: right;
-        @include fluidSizes(font-size, 20, 25);
-      }
-
-      .description {
-        padding-top: 10px;
-        clear: both;
-        @include fluidSizes(font-size, 15, 20);
-      }
+    .description {
+      padding-top: 10px;
+      clear: both;
+      @include fluidSizes(font-size, 15, 20);
     }
   }
 }
