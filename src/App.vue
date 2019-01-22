@@ -17,38 +17,38 @@
 
     <img class="banner" src="./assets/images/sale.jpg" />
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-table-2.jpg" />
         <img class="image image--first" src="./assets/images/kitchen-table-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Kitchen table</b></div>
-        <div class="price">25 € &nbsp;<s>50 €</s></div>
+        <div class="price">Sold</div>
         <div class="description"><i>Beautiful rosewood, convertible</i></div>
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-chairs-2.jpg" />
         <img class="image image--first" src="./assets/images/kitchen-chairs-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Chairs</b></div>
-        <div class="price">15 € &nbsp;<s>30 €</s></div>
+        <div class="price">Sold</div>
         <div class="description"><i>Chair up your life ... four times</i></div>
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-chair-2.jpg" />
         <img class="image image--first" src="./assets/images/kitchen-chair-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Chair</b></div>
-        <div class="price">Free</div>
+        <div class="price">Sold</div>
         <div class="description"><i>Free if you take the other four</i></div>
       </div>
     </div>
@@ -65,38 +65,38 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/big-couch-2.jpg" />
         <img class="image image--first" src="./assets/images/big-couch-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Pull out sofa</b></div>
-        <div class="price">60 € &nbsp;<s>120 €</s></div>
+        <div class="price">Sold</div>
         <div class="description"><i>Comfy, very good condition</i></div>
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/small-couch-2.jpg" />
         <img class="image image--first" src="./assets/images/small-couch-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Green couch</b></div>
-        <div class="price">25 € &nbsp;<s>50 €</s></div>
+        <div class="price">Sold</div>
         <div class="description"><i>Could be your grandma's</i></div>
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/bed-2.jpg" />
         <img class="image image--first" src="./assets/images/bed-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Bed and mattress</b></div>
-        <div class="price">15 € &nbsp;<s>30 €</s></div>
+        <div class="price">Sold</div>
         <div class="description"><i>Much to dream you still have</i></div>
       </div>
     </div>
@@ -222,14 +222,14 @@
       </div>
     </div>
 
-    <div class="product">
+    <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/monitor-2.jpg" />
         <img class="image image--first" src="./assets/images/monitor-1.jpg" />
       </div>
       <div class="text-wrapper">
         <div class="name"><b>Computer monitor</b></div>
-        <div class="price">7.50 € &nbsp;<s>15 €</s></div>
+        <div class="price">Sold</div>
         <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>Low latency, ancient aspect ratio, VGA and DVI connectors</i></div>
       </div>
