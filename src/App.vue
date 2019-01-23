@@ -17,6 +17,103 @@
 
     <img class="banner" src="./assets/images/sale.jpg" />
 
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/oven-2.jpg" />
+        <img class="image image--first" src="./assets/images/oven-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Oven</b></div>
+        <div class="price">25 € &nbsp;<s>50 €</s></div>
+        <div class="description"><i>Up to 250° C, proper oven (not a toy)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/garden-2.jpg" />
+        <img class="image image--first" src="./assets/images/garden-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Garden table, chairs and bench</b></div>
+        <div class="price">15 € &nbsp;<s>30 €</s></div>
+        <div class="description"><i>A little paint and they will be as good as new</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-table-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-table-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Table</b></div>
+        <div class="price">12.50 € &nbsp;<s>25 €</s></div>
+        <div class="description"><i>With beautiful details</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/book-shelf-2.jpg" />
+        <img class="image image--first" src="./assets/images/book-shelf-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Book shelf</b></div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
+        <div class="description"><i>Painted white</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/dresser-2.jpg" />
+        <img class="image image--first" src="./assets/images/dresser-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Dresser</b></div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
+        <div class="description"><i>Goes oddly well with the shelf</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-box-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-box-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Rolling office organiser</b></div>
+        <div class="price">10 € &nbsp;<s>20 €</s></div>
+        <div class="description"><i>Improves your organisation while rockin' and rollin'</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/nightstand-2.jpg" />
+        <img class="image image--first" src="./assets/images/nightstand-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Nightstand / stool</b></div>
+        <div class="price">0.50 € &nbsp;<s>1 €</s></div>
+        <!--  eslint-disable-next-line max-len -->
+        <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="image-wrapper">
+        <img class="image image--second" src="./assets/images/office-chair-2.jpg" />
+        <img class="image image--first" src="./assets/images/office-chair-1.jpg" />
+      </div>
+      <div class="text-wrapper">
+        <div class="name"><b>Boss chair</b></div>
+        <div class="price">Free</div>
+        <div class="description"><i>Got it from a Slovenian dude</i></div>
+      </div>
+    </div>
+
     <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/kitchen-table-2.jpg" />
@@ -101,18 +198,6 @@
       </div>
     </div>
 
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/oven-2.jpg" />
-        <img class="image image--first" src="./assets/images/oven-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Oven</b></div>
-        <div class="price">25 € &nbsp;<s>50 €</s></div>
-        <div class="description"><i>Up to 250° C, proper oven (not a toy)</i></div>
-      </div>
-    </div>
-
     <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/washing-machine-2.jpg" />
@@ -122,30 +207,6 @@
         <div class="name"><b>Washing machine</b></div>
         <div class="price">Sold</div>
         <div class="description"><i>Makes dirty stuff great again</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/book-shelf-2.jpg" />
-        <img class="image image--first" src="./assets/images/book-shelf-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Book shelf</b></div>
-        <div class="price">10 € &nbsp;<s>20 €</s></div>
-        <div class="description"><i>Painted white</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/office-table-2.jpg" />
-        <img class="image image--first" src="./assets/images/office-table-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Table</b></div>
-        <div class="price">12.50 € &nbsp;<s>25 €</s></div>
-        <div class="description"><i>With beautiful details</i></div>
       </div>
     </div>
 
@@ -159,30 +220,6 @@
         <div class="price">Sold</div>
         <!--  eslint-disable-next-line max-len -->
         <div class="description"><i>So wodden, it can be hidden in the forest (Ukulele not included)</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/dresser-2.jpg" />
-        <img class="image image--first" src="./assets/images/dresser-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Dresser</b></div>
-        <div class="price">10 € &nbsp;<s>20 €</s></div>
-        <div class="description"><i>Goes oddly well with the shelf</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/office-box-2.jpg" />
-        <img class="image image--first" src="./assets/images/office-box-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Rolling office organiser</b></div>
-        <div class="price">10 € &nbsp;<s>20 €</s></div>
-        <div class="description"><i>Improves your organisation while rockin' and rollin'</i></div>
       </div>
     </div>
 
@@ -259,19 +296,6 @@
       </div>
     </div>
 
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/garden-2.jpg" />
-        <img class="image image--first" src="./assets/images/garden-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Garden table, chairs and bench</b></div>
-        <div class="price">15 € &nbsp;<s>30 €</s></div>
-        <div class="description"><i>A little paint and they will be as good as new</i></div>
-      </div>
-    </div>
-
-
     <div class="product product--reserved-sold">
       <div class="image-wrapper">
         <img class="image image--second" src="./assets/images/toaster-2.jpg" />
@@ -293,33 +317,6 @@
         <div class="name"><b>Microwave</b></div>
         <div class="price">Sold</div>
         <div class="description"><i>700 Watts of pure convenience</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/nightstand-2.jpg" />
-        <img class="image image--first" src="./assets/images/nightstand-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Nightstand / stool</b></div>
-        <div class="price">0.50 € &nbsp;<s>1 €</s></div>
-        <!--  eslint-disable-next-line max-len -->
-        <div class="description"><i>Stable to carry an elephant (hands and watch not included)</i></div>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="image-wrapper">
-        <img class="image image--second" src="./assets/images/office-chair-2.jpg" />
-        <img class="image image--first" src="./assets/images/office-chair-1.jpg" />
-      </div>
-      <div class="text-wrapper">
-        <div class="name"><b>Boss chair</b></div>
-        <div class="price">Free</div>
-        <div class="description"><i>Got it from a Slovenian dude</i></div>
-        <!--  eslint-disable-next-line max-len -->
-        <div class="description"><i>(If you've made it until here, you get the chair for free)</i></div>
       </div>
     </div>
   </div>
