@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This marketplace website acts as a showcase for various items which are up for sale. Well, without further ado – let's sell some stuff, shall we?
+This marketplace website acts as a showcase for various items which are up for sale. Why not get right to it and sell some stuff, shall we?
 
 ## How to get stared
 
